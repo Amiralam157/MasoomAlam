@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .main {
+            width: 400px;
+            height: 400px;
+            border: 2px red solid;
+            font-size: 30px;
+            overflow: hidden;
+            resize: both;
+            /* resize: vertical; */
+            /* resize: horizontal; */
+            /* resize: none; */
+            text-indent: 10%;
+        }
+        .box-containers{ 
+            width: 600px;
+            height: 600px;
+            border: 2px solid black;
+            margin: auto;
+            position: relative;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            position: absolute;
+            animation-name: box;
+            animation-duration: 5s 2s;
+            animation-delay: 2s;
+            /* animation-iteration-count: 10; */
+            animation-fill-mode: forwards;
+            animation-direction: alternate;
+        }
+        @keyframes box{
+            0% {
+                top: 0px;
+                left: 0px;
+                background: red;
+            }
+            25%{
+                top: 0px;
+                left: 400px;
+                background: green;
+            }
+            50%{
+                top: 400px;
+                left: 400px;
+                background: blue;
+            }
+            75%{
+                top: 400px;
+                left: 0px;
+                background-color: black;
+            }
+            100%{
+                top: 0px;
+                left: 0px;
+                color: pink;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, dicta facilis? Facilis aliquam distinctio cum
+        quia suscipit adipisci odio veniam excepturi error. Aspernatur, nostrum labore modi unde laboriosam explicabo
+        asperiores?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, vero numquam doloribus aut quaerat quidem
+        excepturi quibusdam aliquid, voluptatibus in repellendus consequuntur veritatis mollitia quod. Voluptatem
+        sapiente rem magnam corporis?
+    </div>
+    <br><br><br>
+    <div class="box-containers">
+        <div class="box">
+
+        </div>
+    </div>
+</body>
+</html>

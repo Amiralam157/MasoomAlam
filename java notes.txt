@@ -1,0 +1,8 @@
+java notes
+
+class : A class can be described as:
+a custom data type.
+a special code block that contains methods.
+
+
+

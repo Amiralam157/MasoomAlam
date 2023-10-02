@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+    <b><h1><mark> Hello World!</h1></b></mark></b>
+    <h2>Hello World!</h2>
+    <h3>Hello World!</h3>
+    <h4>Hello World!</h4>
+    <h5>Hello World!</h5>
+    <h6>Hello World!</h6>
+    <p>Lorem ipsum <del>dolor sit <u> amet consectetur,</u></del>  adipisicing elit. Magnam corporis nulla voluptatibus, voluptatum quos autem molestiae. </p> 
+    Iusto debitis molestias pariatur voluptatibus, <b>facilis itaque, magni</b> sequi sapiente nostrum vitae 
+    <strong>aspernatur repellat.</strong>
+    <br>
+    <i>Hello <mark> World! </i> 
+    </p>
+    <!-- list -->
+    <ol type="I">
+        <li >sdkjhvgdf</li>
+        <li>sdkjhvgdf</li>
+        <li>sdkjhvgdf</li>
+        <li>sdkjhvgdf</li>
+    </ol>
+    <ul type = "circle">
+        <li>sdkhkvddcds</li>
+        <li><i>sdkhkvddcds</li></i> 
+        <li>sdkhkvddcds</li>
+        <li>sdkhkvddcds</li>
+    </ul>
+    <ul>
+        <!-- nested list -->
+        <li>Front End
+            <ol>
+                <li>HTML
+                    <ul>
+                        <li>HTML5</li>
+                    </ul>
+                </li>
+                <li>CSS
+                    <ul>
+                        <li>CSS3</li>
+                        <li>Boot Strap</li>
+                    </ul>
+                </li>
+                <li>Java script</li>
+                
+            </ol>
+        </li>
+        <li>BAckEnd
+            <ol>
+                <li>PHP</li>
+                <li>Database</li>
+                <li>Ajax</li>
+                
+            </ol>
+        </li>
+    </ul>
+    <!-- about image -->
+    <!-- attributes of image
+    src
+    title
+    alt
+    height
+    width  -->
+    <img src="image/image1.avif" alt="Something went wrong" title="Random Image" height="500px" width="700px"/><br>
+    <!-- anchor tag -->
+    <a href="https://www.udemy.com/" target="_blank">Go to udemy website</a><br>
+    <a href="image/image1.avif" target="_blank">Go to image page on new tab</a><br>
+    <a href="image/image1.avif" >Go to image page on present tab </a><br>
+    <!-- superscript and subcript and meter tag-->
+    <center> Superscript :  a <sup> 2 <sup> 3 </sup> </sup> + b <sup> 2</sup> </center>
+    <br>
+    <center>Subscript : log <sub> 2 </sub> 45 </center><br>
+     <meter min="0" max="100" value="50"> . </meter>
+
+
+
+     <!-- children tags (about table tag) rowspan and colspan -->
+    <table border="5" align="center" bgcolor="yellow" cellpadding="10" 
+    cellspacing="10" width="500" height="200">
+        <thead>
+            <tr >
+                <th>Course</th>
+                <th>Fees</th>
+                <th bgcolor="green">Duration</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr bgcolor="blue" align="center">
+                <td bgcolor="red">Web development</td>
+                <td>100000</td>
+                <td>2-3 months</td>
+            </tr>
+            <tr bgcolor="blue" align="right">
+                <td>Computer Networks</td>
+                <td>70000</td>
+                <td>1 months</td>
+            </tr>
+            <tr>
+                <td colspan="2"></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br>
+
+    <!-- about forms  -->
+    <form action="">
+        <fieldset>
+            <legend>Enquiry</legend>
+        Name: <input type="text" required="" placeholder="Enter your name" autofocus="" value="Masoom Alam" maxlength="20"/><br><br>
+        Address: <textarea name="" id="" cols="" rows=""></textarea><br><br>
+        Gender: 
+        <input type="radio" value="m" name="gender"> Male
+        <input type="radio" value="f" name="gender" checked=""> Female
+        <input type="radio" value="o" name="gender"> Other
+        <br><br>
+        country:
+        <select name="" id="">
+            <option value=""> Please select a country</option>
+            <optgroup label="ASIA">
+            
+            <option value="india">india</option>
+            <option value="">Sri Lanka</option>
+            </optgroup>
+            <option value="usa">USA</option>
+            
+        </select>
+        <br><br>
+        color : <input type="color" name="color" value="#FF0000">
+        <br><br>
+        Hobbies:
+        <input type="checkbox" name="hobbies[]" checked="">Dancing
+        <input type="checkbox" name="hobbies[]">Singing
+        <input type="checkbox" name="hobbies[]">Painting
+        <br><br>
+        Image:
+        <input type="file" name="image"><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </fieldset>
+    </form><br><br>
+
+
+    <!-- input elements for form -->
+    <form action="">
+        <fieldset>
+            <legend>HTML 5</legend>
+            color: 
+            <input type="color" name="color" id="">
+            <br><br>
+            Email :
+            <input type="email" name="email">
+            <br><br>
+            Password :
+            <input type="password" name="password">
+            <br><br>
+            Age : 
+            <input type="number" name="Age" min="1" max="25">
+            <br><br>
+            Secret :
+            <input type="hidden" name="Secret">
+            <br><br>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form><br><br>
+
+
+
+    <!-- calender elements  and form attributes-->
+    <form action="">
+        <fieldset>
+            <legend>Calender</legend>
+            Date : 
+            <input type="date" name="date">
+            <br><br>
+            Local Datetime :
+            <input type="datetime-local" name=""><br><br>
+            time : 
+            <input type="time"><br><br>
+            Month : 
+            <input type="month"><br><br>
+            Week : 
+            <input type="week">
+            <br><br>
+            Range : <input type="range" min="0" max="200" value="90">
+        </fieldset>
+    </form>
+
+
+    <!-- div tag -->
+    <div>
+        <div>
+            Home
+        </div>
+        <div>Welcom</div>
+    </div>
+
+</body>
+</html>
